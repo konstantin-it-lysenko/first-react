@@ -1,0 +1,44 @@
+body {
+    background-color: #eefbff;
+}
+
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+
+h2 {
+    font-size: 30px;
+    color: grey;
+}
+
+h1 {
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.decrement {
+    margin-right: 10px;
+    width: 100px;
+    padding: 10px 20px;
+    border: 1px solid rgb(172, 17, 17);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(255, 25, 25);
+    color: #fff;
+}
+
+.increment {
+    width: 100px;
+    padding: 10px 20px;
+    border: 1px solid rgb(5, 153, 0);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(9, 189, 0);
+    color: #fff;
+}
